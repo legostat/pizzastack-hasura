@@ -1,0 +1,12 @@
+{
+  "name": "pizzastack-hasura",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "hasura console"
+  },
+  "devDependencies": {
+    "hasura-cli": "^2.20.1"
+  }
+}
