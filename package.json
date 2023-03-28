@@ -4,7 +4,7 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "start": "hasura console"
+    "start": "hasura console --admin-secret q5Dwbv3Q9P59tEFE"
   },
   "devDependencies": {
     "hasura-cli": "^2.20.1"
