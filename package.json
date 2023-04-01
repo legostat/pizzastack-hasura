@@ -7,6 +7,6 @@
     "start": "hasura console --admin-secret q5Dwbv3Q9P59tEFE"
   },
   "devDependencies": {
-    "hasura-cli": "^2.20.1"
+    "hasura-cli": "^2.21.0"
   }
 }
