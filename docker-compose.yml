@@ -32,6 +32,8 @@ services:
       HASURA_GRAPHQL_ADMIN_SECRET: q5Dwbv3Q9P59tEFE
       HASURA_GRAPHQL_UNAUTHORIZED_ROLE: guest
       HASURA_GRAPHQL_JWT_SECRET: '{"type":"HS256", "key":"hUf8d67EJzDhfXLz4mkdURGcQc2RZdAt"}'
+      HASURA_ACTIONS_ENDPOINT: http://host.docker.internal:8888/.netlify/functions
+      HASURA_PIZZASTACK_SECRET: mypizzastacksecretkey
 volumes:
   db_data:
 
